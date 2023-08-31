@@ -1,6 +1,6 @@
 let apiKey = "4f2de4faea20e4o3bbf33tf295b054b5";
-let apiUrl =
-  "https://api.shecodes.io/weather/v1/current?query=London&key=4f2de4faea20e4o3bbf33tf295b054b5&units=metric";
+let city = "London";
+let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=4f2de4faea20e4o3bbf33tf295b054b5&units=metric`;
 console.log(apiUrl);
 
 function formatDate(timestamp) {
